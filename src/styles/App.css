@@ -10,7 +10,7 @@ body {
 }
 
 .page {
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   padding: 50px 20px;
@@ -223,4 +223,144 @@ body {
   justify-content: space-between;
   color: #5f6883;
   font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 24px 14px;
+    align-items: flex-start;
+  }
+
+  .todo-card {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header h1 {
+    font-size: 34px;
+  }
+
+  .header p {
+    font-size: 15px;
+  }
+
+  .header-actions {
+    width: 100%;
+  }
+
+  .header-actions button {
+    width: 48px;
+    height: 48px;
+  }
+
+  .todo-input {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .todo-input input {
+    min-width: 0;
+    font-size: 15px;
+    padding: 0 14px;
+  }
+
+  .todo-input button {
+    width: 52px;
+    height: 52px;
+    font-size: 28px;
+    flex-shrink: 0;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .filter-bar div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .filter-bar button {
+    padding: 11px 10px;
+    font-size: 14px;
+  }
+
+  .clear-btn {
+    width: 100%;
+    background: #fff2f4 !important;
+  }
+
+  .todo-item {
+    padding: 18px;
+    gap: 12px;
+  }
+
+  .todo-content h3 {
+    font-size: 17px;
+  }
+
+  .tag {
+    font-size: 12px;
+  }
+
+  .star,
+  .delete {
+    font-size: 22px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .todo-card {
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .todo-input {
+    border-radius: 18px;
+  }
+
+  .todo-input input {
+    height: 52px;
+  }
+
+  .todo-item {
+    align-items: flex-start;
+  }
+
+  .check {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+
+  .todo-content {
+    min-width: 0;
+  }
+
+  .todo-content h3 {
+    word-break: break-word;
+  }
+
+  .star {
+    display: none;
+  }
 }
