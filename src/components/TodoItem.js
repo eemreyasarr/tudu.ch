@@ -17,10 +17,10 @@ function TodoItem({ todo }) {
                 <span className={`tag ${todo.priority}`}>{todo.tag}</span>
             </div>
 
-            <button className="star">☆</button>
+            {/* <button className="star">☆</button> */}
 
             <button className="delete" onClick={() => deleteTodo(todo.id)}>
-                ⋮
+                ✖
             </button>
         </div>
     );
