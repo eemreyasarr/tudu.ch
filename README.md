@@ -1,82 +1,58 @@
 # Tudu.ch
 
-Official repository for Tudu.ch.
+A modern React-based productivity and task management application.
+
+Tudu.ch helps users organize tasks, manage daily workflows, and improve productivity through a clean and responsive user experience.
+
+---
 
 ## About
 
-This repository contains the source code for `tudu.ch`.
+This project was built to provide a lightweight and efficient task management system focused on simplicity, usability, and modern frontend architecture.
 
-Tudu.ch is a task management and productivity platform designed to help users organize daily workflows, manage responsibilities, and improve personal or team productivity.
+The application allows users to:
 
-The platform focuses on simplicity, usability, and scalable task management workflows.
-
----
-
-## Purpose
-
-The main goal of this project is to provide a modern and efficient system for:
-
-* Task management
-* Daily planning
-* Productivity tracking
-* Workflow organization
-* Team collaboration
-* Personal goal tracking
-* Reminder and notification management
+* Create and manage tasks
+* Track daily workflows
+* Organize priorities
+* Improve personal productivity
+* Maintain focus through structured planning
 
 ---
 
-## Core Features
+## Features
 
 * Task creation & management
-* Todo lists
-* Deadline tracking
-* Reminder system
-* Responsive user interface
-* Mobile-friendly design
-* Search and filtering
-* Priority management
-* Reusable workflow structures
-* Scalable application architecture
-
----
-
-## Possible Use Cases
-
-Tudu.ch can be used for:
-
-* Personal productivity
-* Team task management
-* Software project planning
-* Daily organization
-* Goal tracking
-* Agile workflows
-* Small business operations
-* Study and habit planning
+* Dynamic task updates
+* Real-time UI interactions
+* Responsive modern design
+* Reusable React components
+* State management with React Hooks
+* Local data persistence
+* Search & filtering system
+* Clean and scalable architecture
+* Mobile-friendly interface
 
 ---
 
 ## Technologies
 
-The project may include technologies such as:
+This project is built using:
 
-* Angular / AngularJS
-* TypeScript
-* SCSS
-* ASP.NET Core
-* C#
-* SQL Server
-* Redis
-* JavaScript
+* React
+* JavaScript / TypeScript
+* React Hooks
+* Context API
+* HTML5
+* CSS3
 * REST API
+* Local Storage
 
 ---
 
-## Vision
+## Project Goal
 
-Tudu.ch aims to become a lightweight but powerful productivity platform that combines simplicity with efficient workflow management.
-
-The long-term goal is to create a system that minimizes complexity while maximizing productivity.
+The goal of Tudu.ch is to create a fast, minimal, and user-friendly productivity platform that helps users stay organized without unnecessary complexity.
 
 ---
 
@@ -84,37 +60,39 @@ The long-term goal is to create a system that minimizes complexity while maximiz
 
 Clone the repository:
 
-```bash id="9a8p0s"
+```bash id="7n4xq2"
 git clone https://github.com/eemreyasarr/tudu.ch.git
 ```
 
-Navigate into the project:
+Navigate into the project directory:
 
-```bash id="3l2vna"
+```bash id="8v1lpd"
 cd tudu.ch
 ```
 
 Install dependencies:
 
-```bash id="7qk1mz"
+```bash id="3x8mkt"
 npm install
 ```
 
-Run locally:
+Run the development server:
 
-```bash id="4u2wcb"
+```bash id="2j7wna"
 npm start
 ```
 
 ---
 
-## Project Structure
+## Folder Structure
 
-```text id="2e9xrm"
+```text id="0z8fcm"
 src/
 components/
-services/
 pages/
+hooks/
+context/
+services/
 assets/
 styles/
 ```
@@ -123,38 +101,41 @@ styles/
 
 ## Future Improvements
 
-* Real-time collaboration
-* AI-assisted task planning
+* Authentication system
+* Cloud synchronization
+* Drag & drop task management
 * Calendar integrations
 * Push notifications
-* Mobile applications
-* Offline synchronization
+* Team collaboration features
 * Kanban board support
-* Time tracking
-* Analytics dashboard
-* Team workspace system
+* Dark mode
+* Mobile application support
+* AI-assisted productivity tools
 
 ---
 
-## Productivity Goals
+## UI & UX Focus
 
-* Reduce workflow chaos
-* Improve task visibility
-* Simplify planning
-* Increase focus and efficiency
-* Centralize task organization
+The project emphasizes:
+
+* Simplicity
+* Fast interactions
+* Clean interface design
+* Responsive layouts
+* Scalable component structure
+* Better user productivity workflows
 
 ---
 
 ## License
 
-Private project - all rights reserved.
+This project is licensed for personal and educational use.
 
 ---
 
 ## Author
 
-Emre Yaşar
+Emre Yasar
 
 Full Stack Software Developer
 Switzerland
