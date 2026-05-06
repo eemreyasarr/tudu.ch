@@ -1,70 +1,160 @@
-# Getting Started with Create React App
+# Tudu.ch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official repository for Tudu.ch.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This repository contains the source code for `tudu.ch`.
 
-### `npm start`
+Tudu.ch is a task management and productivity platform designed to help users organize daily workflows, manage responsibilities, and improve personal or team productivity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The platform focuses on simplicity, usability, and scalable task management workflows.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Purpose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The main goal of this project is to provide a modern and efficient system for:
 
-### `npm run build`
+* Task management
+* Daily planning
+* Productivity tracking
+* Workflow organization
+* Team collaboration
+* Personal goal tracking
+* Reminder and notification management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Core Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Task creation & management
+* Todo lists
+* Deadline tracking
+* Reminder system
+* Responsive user interface
+* Mobile-friendly design
+* Search and filtering
+* Priority management
+* Reusable workflow structures
+* Scalable application architecture
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Possible Use Cases
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tudu.ch can be used for:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Personal productivity
+* Team task management
+* Software project planning
+* Daily organization
+* Goal tracking
+* Agile workflows
+* Small business operations
+* Study and habit planning
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project may include technologies such as:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Angular / AngularJS
+* TypeScript
+* SCSS
+* ASP.NET Core
+* C#
+* SQL Server
+* Redis
+* JavaScript
+* REST API
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Vision
 
-### Analyzing the Bundle Size
+Tudu.ch aims to become a lightweight but powerful productivity platform that combines simplicity with efficient workflow management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The long-term goal is to create a system that minimizes complexity while maximizing productivity.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Installation
 
-### Advanced Configuration
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash id="9a8p0s"
+git clone https://github.com/eemreyasarr/tudu.ch.git
+```
 
-### Deployment
+Navigate into the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash id="3l2vna"
+cd tudu.ch
+```
 
-### `npm run build` fails to minify
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash id="7qk1mz"
+npm install
+```
+
+Run locally:
+
+```bash id="4u2wcb"
+npm start
+```
+
+---
+
+## Project Structure
+
+```text id="2e9xrm"
+src/
+components/
+services/
+pages/
+assets/
+styles/
+```
+
+---
+
+## Future Improvements
+
+* Real-time collaboration
+* AI-assisted task planning
+* Calendar integrations
+* Push notifications
+* Mobile applications
+* Offline synchronization
+* Kanban board support
+* Time tracking
+* Analytics dashboard
+* Team workspace system
+
+---
+
+## Productivity Goals
+
+* Reduce workflow chaos
+* Improve task visibility
+* Simplify planning
+* Increase focus and efficiency
+* Centralize task organization
+
+---
+
+## License
+
+Private project - all rights reserved.
+
+---
+
+## Author
+
+Emre Yaşar
+
+Full Stack Software Developer
+Switzerland
